@@ -9,7 +9,7 @@ This project is an executive dashboard built for CloudTask Pro, a B2B SaaS compa
 
 The goal was to analyze subscription data, Monthly Recurring Revenue (MRR), and customer behavior to answer the board's biggest questions: Is churn getting worse? Who is churning and why? Are we making money? And who is at risk of leaving next?
 
-## 🚶 Dashboard Walkthrough (Visual Guide)
+##  Dashboard Walkthrough (Visual Guide)
 
 Since GitHub can't display an interactive Power BI file directly, here's a visual walkthrough of each section and what it tells the business.
 
@@ -17,13 +17,11 @@ Since GitHub can't display an interactive Power BI file directly, here's a visua
 
 ![Top Banner](images/top-banner.png)
 
-At the top: Year, Plan, and Region slicers, plus four KPI cards giving an instant read on the business — **Current MRR (293K)**, **YoY Growth (12.2%)**, **Current Churn Rate (1.4%)**, and **At-Risk Customers (42)**.
-
-**Interactivity note:** the Year slicer updates these KPI cards and the two trend charts below (Waterfall and Churn Rate). The unit economics, churn-driver, and customer-health charts further down are intentionally always based on the full current customer base rather than a single year — that's a deliberate modeling choice, not a bug, since CLV and churn-reason analysis are meant to answer "who are we as a company today," not "how did 2023 alone look."
+At the top:  four KPI cards giving an instant read on the business — **Current MRR (293K)**, **YoY Growth (12.2%)**, **Current Churn Rate (1.4%)**, and **At-Risk Customers (42)**.
 
 ### 2. Revenue Trends & Churn Story
 
-![Revenue and Churn Charts](images/row1-revenue-churn.png)
+![Revenue and Churn Charts](images/revenue-churn.png)
 
 **Left (Waterfall):** shows the "leaky bucket" effect — how MRR moves quarter by quarter as new revenue comes in and churned revenue drains out, building up to the current total. Hovering over any bar reveals the Net Revenue Retention figure for that quarter in the tooltip.
 
@@ -31,7 +29,7 @@ At the top: Year, Plan, and Region slicers, plus four KPI cards giving an instan
 
 ### 3. Unit Economics & Churn Drivers
 
-![Economics and Churn Drivers](images/row2-economics-drivers.png)
+![Economics and Churn Drivers](images/economics-drivers.png)
 
 **Left (Column chart):** compares Average Customer Lifetime Value (CLV) against a blended Customer Acquisition Cost (CAC) of **$200** across all four plans. Every plan is profitable — Enterprise most dramatically at roughly $65K CLV, all the way down to Starter at a still-healthy ~$1,800.
 
@@ -39,7 +37,7 @@ At the top: Year, Plan, and Region slicers, plus four KPI cards giving an instan
 
 ### 4. Customer Base & Health Tracking
 
-![Funnel and Donut Chart](images/row3-funnel-health.png)
+![Funnel and Donut Chart](images/funnel-health.png)
 
 **Left (Funnel):** shows the full customer base narrowing from 600 Total Customers → 287 Active → 42 At-Risk.
 
