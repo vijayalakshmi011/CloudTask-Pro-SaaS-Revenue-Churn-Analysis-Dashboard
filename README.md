@@ -1,11 +1,7 @@
 # ☁️ CloudTask Pro: SaaS Revenue & Churn Analysis Dashboard
 
-![Full Dashboard Overview](images/Dashboard.png)
+[![Full Dashboard Overview](images/Dashboard.png)](https://app.powerbi.com/links/9eavvj7qBd?ctid=94572df2-fdd4-46f9-8952-8b5753b31d29&pbi_source=linkShare&bookmarkGuid=5104f80e-a871-4061-8010-82e293c0f14e) 
 *The complete executive dashboard, built in Power BI Desktop.*
-
-🔗 Click Here to View the Live, Interactive Dashboard(You can interact with the slicers and hover over the tooltips!)
-
-Full Dashboard OverviewClick the image above to open the live dashboard.
 
 ## 📊 Project Overview
 
