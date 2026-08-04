@@ -3,6 +3,10 @@
 ![Full Dashboard Overview](images/Dashboard.png)
 *The complete executive dashboard, built in Power BI Desktop.*
 
+🔗 Click Here to View the Live, Interactive Dashboard(You can interact with the slicers and hover over the tooltips!)
+
+Full Dashboard OverviewClick the image above to open the live dashboard.
+
 ## 📊 Project Overview
 
 This project is an executive dashboard built for CloudTask Pro, a B2B SaaS company selling project management software. The company has grown to 600 customers since 2022, but the leadership board was concerned about high customer churn.
